@@ -3,6 +3,7 @@ html {
 }
 
 .has-same-height .card {
+  min-height: 25vw;
   height: 350px;
   overflow: hidden;
 }
