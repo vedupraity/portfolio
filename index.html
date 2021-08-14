@@ -31,6 +31,13 @@
   <meta property="twitter:image" content="https://vedupraity.github.io/portfolio/img/profile.jpg" />
 
   <link rel="stylesheet" type="text/css" href="css/parallax.css">
+
+  <script>
+    getYearsOfExperience = () => {
+      let currentDate = new Date();
+      return currentDate.getFullYear() - 2017;
+    };
+  </script>
 </head>
 
 <body>
@@ -86,13 +93,18 @@
   <section class="hero is-link is-fullheight is-fullheight-with-navbar">
     <div class="hero-body">
       <div class="container">
-        <h6 class="title is-6 mb-1">Hello! I am</h6>
+        <h4 class="title is-5 mb-4">Hello! I am</h4>
         <h1 class="title is-1">
           Vedprakash Upraity
         </h1>
-        <h2 class="subtitle is-3">
-          Senior Software Engineer / DevOps Engineer
-        </h2>
+        <hr class="has-background-success">
+        <h3 class="subtitle is-3">
+          Senior Software Engineer / <br class="is-hidden-tablet"> DevOps Engineer
+        </h3>
+        <hr class="has-background-success">
+        <h3 class="subtitle is-3">
+          Founder of <br class="is-hidden-tablet"> <a href="https://www.ancientknowledge.in" class="has-text-warning">Ancient Knowledge</a>
+        </h3>
       </div>
     </div>
   </section>
@@ -102,33 +114,30 @@
     <!-- Title -->
     <div class="section-heading">
       <h3 class="title is-2">About Me</h3>
-      <h4 class="subtitle is-5">Jack of all trades, master of "some"</h4>
+      <h4 class="subtitle is-4">Jack of all trades, master of "some"</h4>
       <div class="container">
-        <div class="content">
+        <div class="content is-medium">
           <p>
-            A passionate Software Engineer with more than <strong>4 years</strong> of well-rounded experience with a
-            degree in the
-            field of
-            <strong>Computer Science</strong>, extensive knowledge of modern Web technologies and love for
-            <strong>Music</strong>.
+            A passionate Software Engineer with more than <script>document.write(getYearsOfExperience())</script> years of well-rounded experience with a degree in the field of Computer Science, extensive knowledge of modern Web technologies and love for Music.
           </p>
           <p>
-            Currently working with <a href="https://www.tweeny.in/"><strong>Tweeny Technologies</strong></a>, which
+            Currently working with <a href="https://www.tweeny.in/">Tweeny Technologies</a>, which
             provides solutions for custom software development to product strategy and design.
           </p>
+          <p>Founder of <a href="https://www.ancientknowledge.in/">Ancient Knowledge</a>, which is a free digital library of ancient scriptures, texts, and books. This follows a mission to allow everyone to learn about Vedic Culture and the Sanatana Dharma.</p>
         </div>
       </div>
     </div>
 
-    <div class="columns has-same-height is-gapless">
-      <div class="column">
+    <div class="columns is-multiline is-centered has-same-height is-gapless">
+      <div class="column is-4-fullhd is-5-widescreen is-8-desktop is-8-tablet">
         <!-- Profile -->
         <div class="card">
           <div class="card-content">
             <h3 class="title is-4">Profile</h3>
 
-            <div class="content">
-              <table class="table-profile">
+            <div class="content is-medium overflow-auto">
+                <table class="table-profile">
                 <tr>
                   <th colspan="1"></th>
                   <th colspan="2"></th>
@@ -156,27 +165,27 @@
             </div>
             <br>
             <div class="social-media has-text-centered">
-              <a href="https://github.com/vedupraity" target="_blank" class="button is-light"><i
+              <a href="https://github.com/vedupraity" target="_blank" class="button is-large is-light"><i
                   class="fab fa-github" aria-hidden="true"></i></a>
-              <a href="https://www.linkedin.com/in/vedupraity/" target="_blank" class="button is-light"><i
+              <a href="https://www.linkedin.com/in/vedupraity/" target="_blank" class="button is-large is-light"><i
                   class="fab fa-linkedin-square" aria-hidden="true"></i></a>
-              <a href="https://www.instagram.com/vedupraity" target="_blank" class="button is-light"><i
+              <a href="https://www.instagram.com/vedupraity" target="_blank" class="button is-large is-light"><i
                   class="fab fa-instagram" aria-hidden="true"></i></a>
             </div>
           </div>
         </div>
       </div>
-      <div class="column">
+      <div class="column is-4-fullhd is-5-widescreen is-8-desktop is-4-desktop is-8-tablet">
         <!-- Profile picture -->
         <div class="card profile-card">
         </div>
       </div>
-      <div class="column">
+      <div class="column is-4-fullhd is-10-widescreen is-8-desktop is-4-desktop is-8-tablet">
         <!-- Skills -->
         <div class="card">
           <div class="card-content skills-content">
             <h3 class="title is-4">Skills</h3>
-            <div class="content">
+            <div class="content is-medium">
 
               <article class="media">
                 <div class="media-content">
@@ -256,7 +265,7 @@
                     <p>
                       <strong>Jenkins</strong>
                       <br>
-                      <progress class="progress is-primary" value="90" max="100"></progress>
+                      <progress class="progress is-primary" value="85" max="100"></progress>
                     </p>
                   </div>
                 </div>
@@ -268,7 +277,7 @@
                     <p>
                       <strong>Docker</strong>
                       <br>
-                      <progress class="progress is-primary" value="90" max="100"></progress>
+                      <progress class="progress is-primary" value="80" max="100"></progress>
                     </p>
                   </div>
                 </div>
@@ -280,7 +289,7 @@
                     <p>
                       <strong>Terraform</strong>
                       <br>
-                      <progress class="progress is-primary" value="80" max="100"></progress>
+                      <progress class="progress is-primary" value="90" max="100"></progress>
                     </p>
                   </div>
                 </div>
@@ -292,7 +301,7 @@
                     <p>
                       <strong>Git</strong>
                       <br>
-                      <progress class="progress is-primary" value="90" max="100"></progress>
+                      <progress class="progress is-primary" value="95" max="100"></progress>
                     </p>
                   </div>
                 </div>
@@ -339,27 +348,23 @@
   <section class="section" id="services">
     <div class="section-heading">
       <h3 class="title is-2">Services</h3>
-      <h4 class="subtitle is-5">What can I do for you?</h4>
+      <h4 class="subtitle is-4">What can I do for you?</h4>
     </div>
     <div class="container">
       <div class="columns">
         <div class="column is-flex">
           <div class="box">
-            <div class="content">
+            <div class="content is-medium">
               <h4 class="title is-5">Engineering Automation</h4>
-              <p class="has-text-justified">Design and develop managed framework for infrastructure as code using Terraform;
-                Automate the infrastructure resource provisioning for multi-environment and microservices based
-                orchestration with cloud provider services, Jenkins or Harness.</p>
+              <p class="has-text-justified">Design managed framework for automated infrastructure provisioning with the CI/CT/CD pipelines for multi-environment architecture.</p>
             </div>
           </div>
         </div>
         <div class="column is-flex">
           <div class="box">
-            <div class="content">
+            <div class="content is-medium">
               <h4 class="title is-5">DevOps Engineering</h4>
-              <p class="has-text-justified">Design and develop apps for scalable containerized microservices using
-                Docker, supporting multi-environment configurations; Workflows and pipelines for CI/CT/CD using Version
-                Control (Git), Jenkins and/or Harness, and SonarQube for inspection of code quality;</p>
+              <p class="has-text-justified">Design workflows for CI/CT/CD pipelines for applications with configurable auto-scaling capabilities.</p>
             </div>
           </div>
         </div>
@@ -367,22 +372,17 @@
       <div class="columns">
         <div class="column is-flex">
           <div class="box">
-            <div class="content">
+            <div class="content is-medium">
               <h4 class="title is-5">Full Stack Web Development</h4>
-              <p class="has-text-justified">Design and develop scalable web application as microservices using Python
-                (Django/Flask) - following test driven development and object oriented programming, relational /
-                non-relational database, and using latest standards with HTML5/CSS3 with added funtionality using
-                JavaScript and JQuery.</p>
+              <p class="has-text-justified">Design modern business applications as scalable microservices following the best development practices and industry standard technology stack.</p>
             </div>
           </div>
         </div>
         <div class="column is-flex">
           <div class="box">
-            <div class="content">
+            <div class="content is-medium">
               <h4 class="title is-5">REST API Development</h4>
-              <p class="has-text-justified">Design and develop scalable REST API applications as microservices or
-                serverless apps using Python (Django/Flask) - following test driven development and object oriented
-                programming, and using relational / non-relational database.</p>
+              <p class="has-text-justified">Design secure and scalable REST API services following the best development practices and industry standard technology stack.</p>
             </div>
           </div>
         </div>
@@ -394,7 +394,7 @@
   <section class="section" id="portfolio">
     <div class="section-heading">
       <h3 class="title is-2">Portfolio</h3>
-      <h4 class="subtitle is-5">My latest works</h4>
+      <h4 class="subtitle is-4">My latest works</h4>
     </div>
     <div class="container">
       <div class="columns">
@@ -404,28 +404,21 @@
             <article class="post">
               <div class="media">
                 <div class="media-left">
-                  <p class="image is-32x32">
+                  <p class="image is-48x48">
                     <img src="img/ancient-knowledge-logo.png">
                   </p>
                 </div>
                 <div class="media-content">
-                  <div class="content">
-                    <h4 class="mb-1">
+                  <div class="content is-medium">
+                    <h5 class="mb-1">
                       <a href="https://www.ancientknowledge.in/">Ancient Knowledge</a>
-                    </h4>
+                    </h5>
                     <h6 class="mb-1">Founder / Designer / Developer</h6>
                   </div>
                 </div>
               </div>
-              <div class="content pt-4 has-text-justified">
+              <div class="content is-medium pt-4 has-text-justified">
                 <p>A free digital library of ancient scriptures, texts, and books.</p>
-                <h6>Responsibilities:</h6>
-                <ul>
-                  <li>Design UI / UX</li>
-                  <li>Automate text processing and spell checks using Optical character recognition Machine Learning models and Web scraping</li>
-                  <li>Design and develop the Static Site Generation framework in Python / Flask to be able to render huge dataset of texts/scriptures on the website and generate static page using HTML, CSS, JS and Bulma.</li>
-                  <li>Host the website serving static HTML pages with minimal or no infrastructure cost using GitHub pages</li>
-                </ul>
               </div>
             </article>
 
@@ -435,12 +428,12 @@
             <article class="post">
               <div class="media">
                 <div class="media-left">
-                  <p class="image is-32x32">
+                  <p class="image is-48x48">
                     <img src="img/vanarama-logo.png">
                   </p>
                 </div>
                 <div class="media-content">
-                  <div class="content">
+                  <div class="content is-medium">
                     <h4 class="mb-1">
                       <a href="https://www.vanarama.com/">Vanarama</a>
                     </h4>
@@ -448,14 +441,8 @@
                   </div>
                 </div>
               </div>
-              <div class="content pt-4 has-text-justified">
+              <div class="content is-medium pt-4 has-text-justified">
                 <p>A vehicle leasing platform in UK</p>
-                <h6>Responsibilities:</h6>
-                <ul>
-                  <li>Design automation framework for infrastructure provisioning in AWS using Docker, Terraform, Jenkins and Harness</li>
-                  <li>Work along with the developers to understand the Tech Stack and applications to be deployed as microservices or as serverless apps and design CI/CT/CD pipelines with multi-environment configurations</li>
-                  <li>Design infrastructure provisioning automation using terraform for monitoring application logs, build custom log metric alarms and triggers to send email and slack notifications for captured events</li>
-                </ul>
               </div>
             </article>
 
@@ -465,12 +452,12 @@
             <article class="post">
               <div class="media">
                 <div class="media-left">
-                  <p class="image is-32x32">
+                  <p class="image is-48x48">
                     <img src="img/indiabonds-logo.png">
                   </p>
                 </div>
                 <div class="media-content">
-                  <div class="content">
+                  <div class="content is-medium">
                     <h4 class="mb-1">
                       <a href="https://www.indiabonds.com/">IndiaBonds</a>
                     </h4>
@@ -478,16 +465,8 @@
                   </div>
                 </div>
               </div>
-              <div class="content pt-4 has-text-justified">
+              <div class="content is-medium pt-4 has-text-justified">
                 <p>An investment platform that provides access to the fixed income market in a low-cost, transparent and easy to use manner.</h6>
-                <h6>Responsibilities:</h6>
-                <ul>
-                  <li>Design and provision VPC infrastructure in AWS with multi-environment configurations</li>
-                  <li>Design automated deployments with CI/CT/CD pipelines in AWS using CodePipeline and to deploy services in ElasticBeanstalk with autoscaling configurations</li>
-                  <li>Develop algorithms for financial calculations, following test-driven development to ensure all input and output combinations are validated before go-live</li>
-                  <li>Design the development patterns for the developers to build REST APIs following the best practices with capabilities in microservices to communicate securely</li>
-                  <li>Inspect code quality for refactoring - reusability and readability by reviewing the pull-requests raised by developers</li>
-                </ul>
               </div>
             </article>
 
@@ -497,12 +476,12 @@
             <article class="post">
               <div class="media">
                 <div class="media-left">
-                  <p class="image is-32x32">
+                  <p class="image is-48x48">
                     <img src="img/ryzely-logo.png">
                   </p>
                 </div>
                 <div class="media-content">
-                  <div class="content">
+                  <div class="content is-medium">
                     <h4 class="mb-1">
                       <a href="https://ryzely.com/">Ryzely</a>
                     </h4>
@@ -510,16 +489,8 @@
                   </div>
                 </div>
               </div>
-              <div class="content pt-4">
+              <div class="content is-medium pt-4">
                 <p>A social media management platform for individuals, startups and larger businesses.</h6>
-                <h6>Responsibilities:</h6>
-                <ul>
-                  <li>Design and provision VPC infrastructure in AWS with multi-environment configurations</li>
-                  <li>Design automated deployments with CI/CT/CD pipelines in AWS using CodePipeline and to deploy services in ElasticBeanstalk with autoscaling configurations</li>
-                  <li>Design framework for cron jobs for scheduling and publishing social media posts</li>
-                  <li>Inspect code quality for refactoring - reusability and readability by reviewing the pull-requests raised by developers</li>
-                  <li>Design and develop module for consolidating insights from multiple social media accounts, published posts, and user engagements</li>
-                </ul>
               </div>
             </article>
 
@@ -529,12 +500,12 @@
             <article class="post">
               <div class="media">
                 <div class="media-left">
-                  <p class="image is-32x32">
+                  <p class="image is-48x48">
                     <img src="img/givio-logo.png">
                   </p>
                 </div>
                 <div class="media-content">
-                  <div class="content">
+                  <div class="content is-medium">
                     <h4 class="mb-1">
                       <a href="https://giv.io/">Givio</a>
                     </h4>
@@ -542,17 +513,8 @@
                   </div>
                 </div>
               </div>
-              <div class="content pt-4">
+              <div class="content is-medium pt-4">
                 <p>A charitable giving app.</h6>
-                <h6>Responsibilities:</h6>
-                <ul>
-                  <li>Design and provision VPC infrastructure in AWS with multi-environment configurations</li>
-                  <li>Design automated deployments with CI/CT/CD pipelines in AWS using CodePipeline and to deploy services in ElasticBeanstalk with autoscaling configurations</li>
-                  <li>Design and develop workflow for payment integration to accept donations from most of the global payment methods such as Credit Cards, Google Pay, Apple Pay and even popular Crypto Currencies  </li>
-                  <li>Integrate ElasticSearch to improve performance of search functionality and relevance from a huge database of Non-Profit records</li>
-                  <li>Inspect code quality for refactoring - reusability and readability by reviewing the pull-requests raised by developers</li>
-                  <li>Design and develop secure REST API Service to support the mobile app functionality</li>
-                </ul>
               </div>
             </article>
 
@@ -562,12 +524,12 @@
             <article class="post">
               <div class="media">
                 <div class="media-left">
-                  <p class="image is-32x32">
+                  <p class="image is-48x48">
                     <img src="img/gfgp-logo.png">
                   </p>
                 </div>
                 <div class="media-content">
-                  <div class="content">
+                  <div class="content is-medium">
                     <h4 class="mb-1">
                       <a href="https://www.globalgrantcommunity.com/">Good Financial Grant Practice</a>
                     </h4>
@@ -575,12 +537,8 @@
                   </div>
                 </div>
               </div>
-              <div class="content pt-4">
+              <div class="content is-medium pt-4">
                 <p class="has-text-justified">A platform to standardize, simplify and strengthen funding to help those most in need around the world.</p>
-                <h6>Responsibilities:</h6>
-                <ul>
-                  <li>Develop audit module at Front End and Back End following test-driven development</li>
-                </ul>
               </div>
             </article>
 
@@ -590,12 +548,12 @@
             <article class="post">
               <div class="media">
                 <div class="media-left">
-                  <p class="image is-32x32">
+                  <p class="image is-48x48">
                     <img src="img/petabl-logo.png">
                   </p>
                 </div>
                 <div class="media-content">
-                  <div class="content">
+                  <div class="content is-medium">
                     <h4 class="mb-1">
                       <a href="https://www.petabl.com/">Petabl</a>
                     </h4>
@@ -603,14 +561,8 @@
                   </div>
                 </div>
               </div>
-              <div class="content pt-4">
+              <div class="content is-medium pt-4">
                 <p class="has-text-justified">Pet-Focused Social Network.</p>
-                <h6>Responsibilities:</h6>
-                <ul>
-                  <li>Design and develop REST APIs for microservices following test-driven development</li>
-                  <li>Integrate ElasticSearch to improve performance of search functionality and relevance</li>
-                  <li>Inspect code quality for refactoring - reusability and readability by reviewing the pull-requests raised by developers</li>
-                </ul>
               </div>
             </article>
 
@@ -620,12 +572,12 @@
             <article class="post">
               <div class="media">
                 <div class="media-left">
-                  <p class="image is-32x32">
+                  <p class="image is-48x48">
                     <img src="img/hps-logo.png">
                   </p>
                 </div>
                 <div class="media-content">
-                  <div class="content">
+                  <div class="content is-medium">
                     <h4 class="mb-1">
                       <a href="https://hpswellness.com/">HPS Wellness</a>
                     </h4>
@@ -633,13 +585,8 @@
                   </div>
                 </div>
               </div>
-              <div class="content pt-4">
+              <div class="content is-medium pt-4">
                 <p class="has-text-justified">Empowering every individual achieving health excellence that he deserves.</p>
-                <h6>Responsibilities:</h6>
-                <ul>
-                  <li>Design and develop REST APIs for microservices following test-driven development</li>
-                  <li>Inspect code quality for refactoring - reusability and readability by reviewing the pull-requests raised by developers</li>
-                </ul>
               </div>
             </article>
 
@@ -649,12 +596,12 @@
             <article class="post">
               <div class="media">
                 <div class="media-left">
-                  <p class="image is-32x32">
+                  <p class="image is-48x48">
                     <img src="img/linc-education-logo.png">
                   </p>
                 </div>
                 <div class="media-content">
-                  <div class="content">
+                  <div class="content is-medium">
                     <h4 class="mb-1">
                       <a href="http://linceducation.com/">LINC Education</a>
                     </h4>
@@ -662,16 +609,8 @@
                   </div>
                 </div>
               </div>
-              <div class="content pt-4">
+              <div class="content is-medium pt-4">
                 <p class="has-text-justified">Provides technology-assisted academic support and online facilitation services to improve student retention and outcomes at higher education institutions.</p>
-                <h6>Responsibilities:</h6>
-                <ul>
-                  <li>Design and develop REST APIs for microservices following test-driven development</li>
-                  <li>Design voice transcription module to fetch relevant keywords from the call recordings</li>
-                  <li>Design and develop Email client module at Back End and Front End</li>
-                  <li>Design and develop voice call module</li>
-                  <li>Design and develop event logging module to track user activities</li>
-                </ul>
               </div>
             </article>
 
@@ -681,12 +620,12 @@
             <article class="post">
               <div class="media">
                 <div class="media-left">
-                  <p class="image is-32x32">
+                  <p class="image is-48x48">
                     <img src="img/edapt-logo.png">
                   </p>
                 </div>
                 <div class="media-content">
-                  <div class="content">
+                  <div class="content is-medium">
                     <h4 class="mb-1">
                       <a href="https://edaptapp.com/">EDAPT</a>
                     </h4>
@@ -694,12 +633,8 @@
                   </div>
                 </div>
               </div>
-              <div class="content pt-4">
+              <div class="content is-medium pt-4">
                 <p class="has-text-justified">A digital community of students & professionals who are planning to relocate internationally or domestically. They can connect with like-minded people, find housing, products/services & discuss their challenges to get tailored solution.</p>
-                <h6>Responsibilities:</h6>
-                <ul>
-                  <li>Design and develop REST APIs for microservices following test-driven development</li>
-                </ul>
               </div>
             </article>
 
@@ -709,12 +644,12 @@
             <article class="post">
               <div class="media">
                 <div class="media-left">
-                  <p class="image is-32x32">
+                  <p class="image is-48x48">
                     <img src="https://bulma.io/images/placeholders/32x32.png">
                   </p>
                 </div>
                 <div class="media-content">
-                  <div class="content">
+                  <div class="content is-medium">
                     <h4 class="mb-1">
                       <a href="">GIS project</a>
                     </h4>
@@ -722,12 +657,8 @@
                   </div>
                 </div>
               </div>
-              <div class="content pt-4">
-                <p class="has-text-justified">A web app to provide an easy interface for data analysis on top of a huge collection of relational database of survey across India. Major feature was selecting region on map, by drawing shapes and review the data points calculated for that region.</p>
-                <h6>Responsibilities:</h6>
-                <ul>
-                  <li>Design and develop algorithms to calculate values for datapoints from dataset for selected region</li>
-                </ul>
+              <div class="content is-medium pt-4">
+                <p class="has-text-justified">A web app to provide an easy interface for data analysis on top of a huge collection of relational database of survey across India.</p>
               </div>
             </article>
           </div>
@@ -745,12 +676,12 @@
     <div class="container">
       <div class="columns">
         <div class="column is-12">
-          <div class="box content">
+          <div class="box">
             <!-- Bachelor of Engineering -->
             <article class="post">
               <div class="media">
                 <div class="media-content">
-                  <div class="content">
+                  <div class="content is-medium">
                     <h4>Bachelor of Engineering | Computer Science and Engineering</h4>
                     <p>CGPA 6.8 / 10</p>
                     <p class="has-text-justified">Mahakal Institute of Technology, Ujjain MP (Affiliated to Rajiv Gandhi
@@ -758,7 +689,9 @@
                   </div>
                 </div>
                 <div class="media-right">
-                  <span class="has-text-grey-light">2013 - 2017</span>
+                  <div class="content is-medium">
+                    <span class="has-text-grey-light">2013 - 2017</span>
+                  </div>
                 </div>
               </div>
             </article>
@@ -769,14 +702,16 @@
             <article class="post">
               <div class="media">
                 <div class="media-content">
-                  <div class="content">
+                  <div class="content is-medium">
                     <h4>Higher Secondary</h4>
                     <p>67.00 %</p>
                     <p class="has-text-justified">Morning Star Higher Secondary School, Ratlam MP</p>
                   </div>
                 </div>
                 <div class="media-right">
-                  <span class="has-text-grey-light">2012 - 2013</span>
+                  <div class="content is-medium">
+                    <span class="has-text-grey-light">2012 - 2013</span>
+                  </div>
                 </div>
               </div>
             </article>
@@ -787,14 +722,16 @@
             <article class="post">
               <div class="media">
                 <div class="media-content">
-                  <div class="content">
+                  <div class="content is-medium">
                     <h4>Senior Secondary</h4>
                     <p>63.00 %</p>
                     <p class="has-text-justified">Scholars' Den Higher Secondary School, Khandwa MP</p>
                   </div>
                 </div>
                 <div class="media-right">
-                  <span class="has-text-grey-light">2010 - 2011</span>
+                  <div class="content is-medium">
+                    <span class="has-text-grey-light">2010 - 2011</span>
+                  </div>
                 </div>
               </div>
             </article>
@@ -809,29 +746,27 @@
   <section class="section" id="other-interests">
     <div class="section-heading">
       <h3 class="title is-2">Other Interests</h3>
-      <h4 class="subtitle is-5">I compose Music</h4>
+      <h4 class="subtitle is-4">I compose Music</h4>
     </div>
     <div class="container">
       <div class="columns">
         <div class="column is-12">
-          <div class="box content">
+          <div class="box">
             <!-- Music Production -->
             <article class="post">
               <div class="media">
                 <div class="media-left">
-                  <p class="image is-32x32">
+                  <p class="image is-48x48">
                     <img src="img/blurfox-logo.png">
                   </p>
                 </div>
                 <div class="media-content">
-                  <div class="content">
-                    <h4 class="mb-1">Music Production | The BlurFox</h4>
+                  <div class="content is-medium">
+                    <h4 class="mb-1">The BlurFox Music</h4>
                     <p>
-                      <strong>
-                        <a href="https://soundcloud.com/theblurfox">SoundCloud</a> |
-                        <a href="https://www.youtube.com/blurfoxmusic">YouTube</a> |
-                        <a href="https://www.instagram.com/blurfoxmusic">Instagram</a>
-                      </strong>
+                      <a href="https://soundcloud.com/theblurfox">SoundCloud</a> |
+                      <a href="https://www.youtube.com/blurfoxmusic">YouTube</a> |
+                      <a href="https://www.instagram.com/blurfoxmusic">Instagram</a>
                     </p>
                   </div>
                 </div>
@@ -839,8 +774,8 @@
                   <span class="has-text-grey-light"></span>
                 </div>
               </div>
-              <div class="content pt-4">
-                <p>Here are some of my Music tracks on Soudcloud:</p>
+              <div class="content is-medium pt-4 pb-0">
+                <p>Some of my published music tracks on Soudcloud:</p>
 
                 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
                   src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1261657669&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
@@ -853,9 +788,10 @@
                     style="color: #cccccc; text-decoration: none;">The BlurFox Music | Original Mixes | EDM | Bass |
                     Future House | Music</a></div>
               </div>
-
-              <p class="has-text-justified">If you have Music related queries or you want to collab, contact us at <a
-                href="emailto:theblurfox@gmail.com">theblurfox@gmail.com</a></p>
+              <div class="content is-medium pt-0">
+                <p class="has-text-justified">Looking for collaboration? reach out to us at <a
+                  href="emailto:theblurfox@gmail.com">theblurfox@gmail.com</a></p>
+              </div>
             </article>
           </div>
         </div>

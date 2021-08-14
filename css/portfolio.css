@@ -4,7 +4,7 @@ html {
 
 .has-same-height .card {
   min-height: 25vw;
-  height: 350px;
+  height: 450px;
   overflow: hidden;
 }
 
@@ -68,4 +68,8 @@ th {
 
 .p-0 {
   padding: 0;
+}
+
+.overflow-auto {
+  overflow: auto;
 }
