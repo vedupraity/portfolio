@@ -1,2 +1,1 @@
-### Visit 
-https://vedupraity.github.io/portfolio/
+Visit https://vedupraity.github.io/portfolio/
