@@ -55,7 +55,7 @@ th {
 }
 
 .profile-card {
-  background-image: url("/img/profile.jpg");
+  background-image: url("/portfolio/img/profile.jpg");
   background-position: top;
   background-size: cover;
 }
