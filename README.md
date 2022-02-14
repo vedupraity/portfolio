@@ -1,1 +1,1 @@
-Visit https://vedupraity.github.io/portfolio/
+Site url https://vedupraity.github.io/portfolio/
